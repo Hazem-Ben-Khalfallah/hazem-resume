@@ -104,7 +104,7 @@
 \newcommand{\github}[1]{\printinfo{\githubsymbol}{#1}}
 \newcommand{\orcid}[1]{\printinfo{\orcidsymbol}{#1}}
 \newcommand{\location}[1]{\printinfo{\locationsymbol}{#1}}
-\newcommand{\website}[2]{\sociallink{\faExternalLink}{#1}{#2}}
+\newcommand{\website}[2]{\printinfo{\faExternalLink}{#1}}
 
 \newcommand{\personalinfo}[1]{\def\@personalinfo{#1}}
 
